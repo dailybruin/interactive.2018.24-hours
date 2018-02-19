@@ -15,16 +15,20 @@
     
     </div>
   </div>
+  {{ data }}
   <div id="fullpage">
-    <div class="photo-container" id="1id" data-anchor="1" data-time="12.23" data-caption="Hello this be a caption">
-      <div class="time">
-        
+    {% for photo in looper %}
+    {% if photo not undefined %}
+    <div class="photo-container" id="{{ photo.id + 'id'}}" data-anchor="{{ photo.id }}" data-time="{{ photo.time }}" data-caption="{{ photo.caption }}">
+      <div class="photo">
+        <img src="{{ 'img/' + photo.filename }}">
       </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+    <div class="photo-container" id="1id" data-anchor="1" data-time="12.23" data-caption="Hello this be a caption">
       <div class="photo">
         <img src="http://dailybruin.com/images/galleries/mens-basketball-vs-oregon/Gallery.jpg">
-      </div>
-      <div class="caption-wrapper">
-      
       </div>
     </div>
     <div class="photo-container"  id="2id" data-anchor="2" data-time="1.23" data-caption="Hello this be another caption and it's really long hello mobile!">

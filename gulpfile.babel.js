@@ -20,6 +20,8 @@ import uglify from 'gulp-uglify';
 import sourcemaps from 'gulp-sourcemaps';
 import bs from 'browser-sync';
 import del from 'del';
+import fs from 'fs';
+import data from 'gulp-data';
 
 const browserSync = bs.create();
 
@@ -103,6 +105,7 @@ gulp.task('scripts:prod', () =>
 gulp.task('html:dev', () =>
   gulp
     .src('src/*.{njk,html}')
+    .pipe(data({ data: fs.readFileSync('./data.json') }))
     .pipe(
       nunjucksRender({
         path: ['src/'],

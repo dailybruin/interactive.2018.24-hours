@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "filename": "A.web.12AM1AM.PicA.DLB",
         "time": 12.55,
         "indicator": "AM",
@@ -7,6 +8,7 @@
         "credits": "Daniel Leibowitz/Daily Bruin staff"
     },
     {
+        "id": 2,
         "filename": "B.web.12AM1AM.PicB.DLB",
         "time": 1.01,
         "indicator": "AM",
@@ -14,6 +16,7 @@
         "credits": "Daniel Leibowitz/Daily Bruin staff"
     },
     {
+        "id": 3,
         "filename": "D.web.1AM2AM.PicA.DLB",
         "time": 1.07,
         "indicator": "AM",
@@ -21,6 +24,7 @@
         "credits": "Daniel Leibowitz/Daily Bruin staff"
     },
     {
+        "id": 4,
         "filename": "C.web.1AM2AM.PicB.DLB",
         "time": 1.22,
         "indicator": "AM",
@@ -28,6 +32,7 @@
         "credits": "Daniel Leibowitz/Daily Bruin staff"
     },
     {
+        "id": 5,
         "filename": "E.web.2AM3AM.PicA.AL",
         "time": 2.1,
         "indicator": "AM",
@@ -35,6 +40,7 @@
         "credits": "Axel Lopez/Daily Bruin"
     },
     {
+        "id": 6,
         "filename": "F.web.2AM.3AM.PicB.AL",
         "time": 2.38,
         "indicator": "AM",
@@ -42,6 +48,7 @@
         "credits": "Axel Lopez/Daily Bruin"
     },
     {
+        "id": 7,
         "filename": "H.web.3AM4AM.PicB.AL",
         "time": 3.01,
         "indicator": "AM",
@@ -49,6 +56,7 @@
         "credits": "Axel Lopez/Daily Bruin"
     },
     {
+        "id": 8,
         "filename": "I.web.4AM5AM.PicA.AL",
         "time": 4.4,
         "indicator": "AM",
@@ -56,6 +64,7 @@
         "credits": "Axel Lopez/Daily Bruin"
     },
     {
+        "id": 9,
         "filename": "J.web.5AM6AM.PicA.AL",
         "time": 5.09,
         "indicator": "AM",
@@ -63,6 +72,7 @@
         "credits": "Axel Lopez/Daily Bruin"
     },
     {
+        "id": 10,
         "filename": "L.web.6AM7AM.PicA.MK",
         "time": 6.2,
         "indicator": "AM",
@@ -70,6 +80,7 @@
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
+        "id": 11,
         "filename": "K.web.6AM7AM.PicB.MK",
         "time": 6.25,
         "indicator": "AM",
@@ -77,6 +88,7 @@
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
+        "id": 12,
         "filename": "L.web.7AM8AM.PicA.MK",
         "time": 7.25,
         "indicator": "AM",
@@ -84,6 +96,7 @@
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
+        "id": 13,
         "filename": "M.web.8AM9AM.PicA.MK",
         "time": 8.1,
         "indicator": "AM",
@@ -91,6 +104,7 @@
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
+        "id": 14,
         "filename": "O.web.8AM9AM.PicB.MK",
         "time": 8.25,
         "indicator": "AM",
@@ -98,6 +112,7 @@
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
+        "id": 15,
         "filename": "P.web.9AM10AM.PicA.MK",
         "time": 9.2,
         "indicator": "AM",
@@ -105,6 +120,7 @@
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
+        "id": 16,
         "filename": "Q.web.9AM10AM.PicB.MK",
         "time": 9.3,
         "indicator": "AM",
@@ -112,6 +128,7 @@
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
+        "id": 17,
         "filename": "R.web.10AM11AM.PicA.LU",
         "time": 10.04,
         "indicator": "AM",
@@ -119,6 +136,7 @@
         "credits": "Laura Uzes/Daily Bruin"
     },
     {
+        "id": 18,
         "filename": "S.web.10AM11AM.PicB.LU",
         "time": 10.17,
         "indicator": "AM",
@@ -126,6 +144,7 @@
         "credits": "Laura Uzes/Daily Bruin"
     },
     {
+        "id": 19,
         "filename": "T.web.11AM12PM.PicA.LU",
         "time": 11.3,
         "indicator": "AM",
@@ -133,6 +152,7 @@
         "credits": "Laura Uzes/Daily Bruin"
     },
     {
+        "id": 20,
         "filename": "U.web.11AM12PM.PicB.LU",
         "time": 11.44,
         "indicator": "AM",
@@ -140,6 +160,7 @@
         "credits": "Laura Uzes/Daily Bruin"
     },
     {
+        "id": 21,
         "filename": "V.web.12PM1PM.PicA.LK",
         "time": 12.05,
         "indicator": "PM",
@@ -147,6 +168,7 @@
         "credits": "Liz Ketcham/Daily Bruin"
     },
     {
+        "id": 22,
         "filename": "W.web.12PM1PM.PicB.LK",
         "time": 12.42,
         "indicator": "PM",
@@ -154,6 +176,7 @@
         "credits": "Liz Ketcham/Daily Bruin"
     },
     {
+        "id": 23,
         "filename": "web.1PM2PM.PicA.HM",
         "time": 1.15,
         "indicator": "PM",
@@ -161,6 +184,7 @@
         "credits": "Habeba Mostafa/Daily Bruin"
     },
     {
+        "id": 24,
         "filename": "web.1PM2PM.PicA.LK ",
         "time": 1.19,
         "indicator": "PM",
@@ -168,6 +192,7 @@
         "credits": "Liz Ketcham/Daily Bruin"
     },
     {
+        "id": 25,
         "filename": "web.1PM2PM.PicB.HM",
         "time": 1.45,
         "indicator": "PM",
@@ -175,6 +200,7 @@
         "credits": "Habeba Mostafa/Daily Bruin"
     },
     {
+        "id": 26,
         "filename": "web.2PM3PM.PIcA.EPi",
         "time": 2.14,
         "indicator": "PM",
@@ -182,6 +208,7 @@
         "credits": "Eljona Pinon/Daily Bruin"
     },
     {
+        "id": 27,
         "filename": "web.1PM2PM.PicC.HM",
         "time": 2.2,
         "indicator": "PM",
@@ -189,6 +216,7 @@
         "credits": "Habeba Mostafa/Daily Bruin"
     },
     {
+        "id": 28,
         "filename": "web.3PM4PM.PicA.CZ",
         "time": 3.24,
         "indicator": "PM",
@@ -196,6 +224,7 @@
         "credits": "Chelsea Zhang/Daily Bruin"
     },
     {
+        "id": 29,
         "filename": "web.3PM4PM.PicA.AYeo",
         "time": 3.53,
         "indicator": "PM",
@@ -203,6 +232,7 @@
         "credits": "Aubrey Yeo/Daily Bruin senior staff"
     },
     {
+        "id": 30,
         "filename": "web.4PM5PM.PicA.JS",
         "time": 4.21,
         "indicator": "PM",
@@ -210,6 +240,7 @@
         "credits": "Jenna Smith/Daily Bruin"
     },
     {
+        "id": 31,
         "filename": "web.5PM6PM.PicA.AYeo",
         "time": 5.17,
         "indicator": "PM",
@@ -217,6 +248,7 @@
         "credits": "Aubrey Yeo/Daily Bruin senior staff"
     },
     {
+        "id": 32,
         "filename": "web.5PM6PM.PicB.AYeo",
         "time": 5.32,
         "indicator": "PM",
@@ -224,6 +256,7 @@
         "credits": "Aubrey Yeo/Daily Bruin senior staff"
     },
     {
+        "id": 33,
         "filename": "web.5PM6PM.PicC.AYeo",
         "time": 5.42,
         "indicator": "PM",
@@ -231,6 +264,7 @@
         "credits": "Aubrey Yeo/Daily Bruin senior staff"
     },
     {
+        "id": 34,
         "filename": "web.6PM7PM.PicA.ES",
         "time": 6.05,
         "indicator": "PM",
@@ -238,6 +272,7 @@
         "credits": "Emma Skinner/Daily Bruin"
     },
     {
+        "id": 35,
         "filename": "web.6PM7PM.PicB.FSa",
         "time": 6.21,
         "indicator": "PM",
@@ -245,6 +280,7 @@
         "credits": "Farida Saleh/Daily Bruin"
     },
     {
+        "id": 36,
         "filename": "web.6PM7PM.PicA.FSa",
         "time": 6.37,
         "indicator": "PM",
@@ -252,6 +288,7 @@
         "credits": "Farida Saleh/Daily Bruin"
     },
     {
+        "id": 37,
         "filename": "web.7PM8PM.PicA.Fsa",
         "time": 7.36,
         "indicator": "PM",
@@ -259,6 +296,7 @@
         "credits": "Farida Saleh/Daily Bruin"
     },
     {
+        "id": 38,
         "filename": "web.7PM8PM.PicC.Fsa",
         "time": 7.54,
         "indicator": "PM",
@@ -266,6 +304,7 @@
         "credits": "Farida Saleh/Daily Bruin"
     },
     {
+        "id": 39,
         "filename": "web.9PM10PM.PicA.EF",
         "time": 9.36,
         "indicator": "PM",
@@ -273,6 +312,7 @@
         "credits": "Edward Figueroa/Ddaily Bruin"
     },
     {
+        "id": 40,
         "filename": "web.10PM11PM.PicA.MC",
         "time": 10.27,
         "indicator": "PM",
@@ -280,6 +320,7 @@
         "credits": "Mackenzie Coffman/Daily Bruin"
     },
     {
+        "id": 41,
         "filename": "web.10PM11PM.PicA.GZ",
         "time": 10.39,
         "indicator": "PM",
@@ -287,6 +328,7 @@
         "credits": "Grace Zhu/Daily Bruin"
     },
     {
+        "id": 42,
         "filename": "web.11PM12AM.PicA.MC",
         "time": 11.35,
         "indicator": "PM",
