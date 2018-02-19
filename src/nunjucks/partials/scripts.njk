@@ -12,15 +12,17 @@
     }); #}
 
     // DOM VARIABLES
-    var overlay = document.getElementById('shadow-overlay');
-    var caption = document.getElementById('caption');
-    var captionReadMore = document.getElementById('caption-read-more');
+    let overlay = document.getElementById('shadow-overlay');
+    let caption = document.getElementById('caption');
+    let indicator = document.getElementById('indicator');
+    let time = document.getElementById('time');
+    let captionReadMore = document.getElementById('caption-read-more');
     //FOR COUNTUPJS
     var options = {
       useEasing: true, 
       useGrouping: true, 
       separator: ',', 
-      decimal: ':', 
+      decimal: ':',
     };
     var demo = new CountUp('time', 0, 1.23, 2, 2.5, options);
     if (!demo.error) {
@@ -67,6 +69,8 @@
                 //update caption
                 let newCaption = updateSlide.getAttribute('data-caption');
                 caption.innerHTML = newCaption;
+                //indicator.innerHTML = updateSlide.getAttribute('data-indicator');
+                demo.options.suffix = updateSlide.getAttribute('data-indicator');
             }
         });
     });

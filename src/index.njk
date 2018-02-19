@@ -5,9 +5,7 @@
   
   </div>
   <div id="time-caption-wrapper">
-    <div id="time">
-    
-    </div>
+    <div id="time"></div>
     <div id="caption-read-more">
       READ MORE
     </div>
@@ -15,53 +13,23 @@
     
     </div>
   </div>
-  {{ data }}
   <div id="fullpage">
-    {% for photo in looper %}
-    {% if photo not undefined %}
-    <div class="photo-container" id="{{ photo.id + 'id'}}" data-anchor="{{ photo.id }}" data-time="{{ photo.time }}" data-caption="{{ photo.caption }}">
+    {% for photo in data %}
+    <div class="photo-container" id="{{ photo.id + 'id'}}" data-anchor="{{ photo.id }}" data-time="{{ photo.time }}" data-indicator="{{ photo.indicator }}" data-caption="{{ photo.caption }}">
       <div class="photo">
-        <img src="{{ 'img/' + photo.filename }}">
+        <img src="{{ 'img/' + photo.filename + '.jpg' }}">
       </div>
     </div>
-    {% endif %}
     {% endfor %}
-    <div class="photo-container" id="1id" data-anchor="1" data-time="12.23" data-caption="Hello this be a caption">
-      <div class="photo">
-        <img src="http://dailybruin.com/images/galleries/mens-basketball-vs-oregon/Gallery.jpg">
-      </div>
-    </div>
-    <div class="photo-container"  id="2id" data-anchor="2" data-time="1.23" data-caption="Hello this be another caption and it's really long hello mobile!">
-      <div class="time">
-      
-      </div>
-      <div class="photo">
-        <img src="http://dailybruin.com/images/galleries/ucla-vs-usc-mbb-2018/AYEO9932.jpg">
-      </div>
-      <div class="caption-wrapper">
-      
-      </div>
-    </div>
-    <div class="photo-container" id="3id" data-anchor="3" data-time="2.23" data-caption="Hello this be a third caption">
-      <div class="time">
-      
-      </div>
-      <div class="photo">
-        <img src="http://dailybruin.com/images/galleries/ucla-vs-usc-mbb-2018/AYEO0669.jpg">
-      </div>
-      <div class="caption-wrapper">
-      
-      </div>
-    </div>
   </div>
   <div class="sidebar">
     <div class="title-container">
       24 Hours at UCLA
     </div>
     <ul id="sidebar-links">
-      <li data-menuanchor="1"><a href="#1">First section</a></li>
-      <li data-menuanchor="2"><a href="#2">First section</a></li>
-      <li data-menuanchor="3"><a href="#3">First section</a></li>
+      {% for photo in data %}
+        <li data-menuanchor="{{photo.id}}"><a href="#{{photo.id}}">{{photo.time}}</a></li>
+      {% endfor %}
     </ul>
   </div>
 {% endblock %}

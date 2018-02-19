@@ -28,10 +28,7 @@ const browserSync = bs.create();
 gulp.task('images:dev', () => gulp.src('src/img/*').pipe(gulp.dest('dev/img')));
 
 gulp.task('images:prod', () =>
-  gulp
-    .src('src/img/*')
-    .pipe(imagemin())
-    .pipe(gulp.dest('prod/img'))
+  gulp.src('src/img/*').pipe(imagemin()).pipe(gulp.dest('prod/img'))
 );
 
 gulp.task('styles:dev', () =>
@@ -105,7 +102,11 @@ gulp.task('scripts:prod', () =>
 gulp.task('html:dev', () =>
   gulp
     .src('src/*.{njk,html}')
-    .pipe(data({ data: fs.readFileSync('./data.json') }))
+    .pipe(
+      data(file => {
+        return { data: JSON.parse(fs.readFileSync('./data.json')) };
+      })
+    )
     .pipe(
       nunjucksRender({
         path: ['src/'],
