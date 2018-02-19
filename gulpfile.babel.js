@@ -26,12 +26,15 @@ const browserSync = bs.create();
 gulp.task('images:dev', () => gulp.src('src/img/*').pipe(gulp.dest('dev/img')));
 
 gulp.task('images:prod', () =>
-  gulp.src('src/img/*').pipe(imagemin()).pipe(gulp.dest('prod/img'))
+  gulp
+    .src('src/img/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('prod/img'))
 );
 
 gulp.task('styles:dev', () =>
   gulp
-    .src('./src/scss/**/*.scss')
+    .src('src/scss/**/*.scss')
     .pipe(sourcemaps.init())
     .pipe(
       sass({
@@ -78,7 +81,7 @@ const webpackConfig = {
 
 gulp.task('scripts:dev', () =>
   gulp
-    .src('src/js/index.js')
+    .src('src/js/*.js')
     .pipe(sourcemaps.init())
     .pipe(webpack(webpackConfig))
     .pipe(sourcemaps.write())

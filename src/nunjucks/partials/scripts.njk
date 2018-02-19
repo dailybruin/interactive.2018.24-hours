@@ -1,3 +1,67 @@
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 <script src="js/bundle.js"></script>
+{# <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.js"></script> #}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.6/jquery.fullpage.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/countup@1.8.2/countUp.js"></script>
+<script>
+    {# $(function() {
+        $.scrollify({
+        section : ".photo-container",
+        });
+    }); #}
+
+    // DOM VARIABLES
+    var overlay = document.getElementById('shadow-overlay');
+    var caption = document.getElementById('caption');
+    //FOR COUNTUPJS
+    var options = {
+      useEasing: true, 
+      useGrouping: true, 
+      separator: ',', 
+      decimal: ':', 
+    };
+    var demo = new CountUp('time', 0, 1.23, 2, 2.5, options);
+    if (!demo.error) {
+      demo.start();
+    } else {
+      console.error(demo.error);
+    }
+
+    // Event listeners
+    // check for read more function
+    document.getElementById('caption-read-more').addEventListener('click', readMore);
+    // hide caption
+    document.getElementById('shadow-overlay').addEventListener('click', readLess);
+    function readMore() {
+       overlay.style.opacity = 0.65;
+       caption.style.opacity = 1;
+    }
+
+    function readLess() {
+        overlay.style.opacity = 0;
+        caption.style.opacity = 0;
+    }
+
+    //FOR FULLPAGE.JS
+    $(document).ready(function() {
+        $('#fullpage').fullpage({
+            sectionSelector: '.photo-container',
+            menu: '#sidebar-links',
+            lazyload: true,
+            parllax: false,
+            parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+            // callback function that updates the clock and caption
+            afterLoad: function(anchorLink, index) {
+                // update clock
+                let updateSlide = document.getElementById(index + 'id');
+                console.log(updateSlide);
+                let newTime = updateSlide.getAttribute('data-time');
+                demo.update(newTime);
+                //update caption
+                let newCaption = updateSlide.getAttribute('data-caption');
+                caption.innerHTML = newCaption;
+            }
+        });
+    });
+</script>

@@ -1,8 +1,66 @@
 {% extends "./nunjucks/templates/default.njk" %}
 
 {% block content %}
-<h1>This is a custom block</h1>
-<p>
-  Go put your own content here!
-</p>
+  <div class="sidebar">
+    <div class="title-container">
+      24 Hours at UCLA
+      {% for ingredient, amount in food %}
+  Use {{ amount }} of {{ ingredient }}
+{% endfor %}
+    </div>
+    <ul id="sidebar-links">
+      <li data-menuanchor="1"><a href="#1">First section</a></li>
+      <li data-menuanchor="2"><a href="#2">First section</a></li>
+      <li data-menuanchor="3"><a href="#3">First section</a></li>
+    </ul>
+  </div>
+  <div id="shadow-overlay">
+  
+  </div>
+  <div id="time-caption-wrapper">
+    <div id="time">
+    
+    </div>
+    <div id="caption-read-more">
+      READ MORE
+    </div>
+    <div id="caption">
+    
+    </div>
+  </div>
+  <div id="fullpage">
+    <div class="photo-container" id="1id" data-anchor="1" data-time="12.23" data-caption="Hello this be a caption">
+      <div class="time">
+        
+      </div>
+      <div class="photo">
+        <img src="http://dailybruin.com/images/galleries/mens-basketball-vs-oregon/Gallery.jpg">
+      </div>
+      <div class="caption-wrapper">
+      
+      </div>
+    </div>
+    <div class="photo-container"  id="2id" data-anchor="2" data-time="1.23" data-caption="Hello this be another caption and it's really long hello mobile!">
+      <div class="time">
+      
+      </div>
+      <div class="photo">
+        <img src="http://dailybruin.com/images/galleries/ucla-vs-usc-mbb-2018/AYEO9932.jpg">
+      </div>
+      <div class="caption-wrapper">
+      
+      </div>
+    </div>
+    <div class="photo-container" id="3id" data-anchor="3" data-time="2.23" data-caption="Hello this be a third caption">
+      <div class="time">
+      
+      </div>
+      <div class="photo">
+        <img src="http://dailybruin.com/images/galleries/ucla-vs-usc-mbb-2018/AYEO0669.jpg">
+      </div>
+      <div class="caption-wrapper">
+      
+      </div>
+    </div>
+  </div>
 {% endblock %}
