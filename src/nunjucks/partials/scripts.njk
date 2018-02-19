@@ -14,6 +14,7 @@
     // DOM VARIABLES
     var overlay = document.getElementById('shadow-overlay');
     var caption = document.getElementById('caption');
+    var captionReadMore = document.getElementById('caption-read-more');
     //FOR COUNTUPJS
     var options = {
       useEasing: true, 
@@ -30,17 +31,23 @@
 
     // Event listeners
     // check for read more function
-    document.getElementById('caption-read-more').addEventListener('click', readMore);
+    captionReadMore.addEventListener('click', readMore);
     // hide caption
-    document.getElementById('shadow-overlay').addEventListener('click', readLess);
+    overlay.addEventListener('click', readLess);
     function readMore() {
        overlay.style.opacity = 0.65;
+       overlay.style.zIndex = 3;
        caption.style.opacity = 1;
+       captionReadMore.style.height = 0;
+       captionReadMore.style.opacity = 0;
     }
 
     function readLess() {
         overlay.style.opacity = 0;
+        overlay.style.zIndex = -1;
         caption.style.opacity = 0;
+        captionReadMore.style.height = '1rem';
+        captionReadMore.style.opacity = 1;
     }
 
     //FOR FULLPAGE.JS
@@ -49,8 +56,7 @@
             sectionSelector: '.photo-container',
             menu: '#sidebar-links',
             lazyload: true,
-            parllax: false,
-            parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+            autoScrolling: true,
             // callback function that updates the clock and caption
             afterLoad: function(anchorLink, index) {
                 // update clock

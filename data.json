@@ -1,0 +1,296 @@
+[
+    {
+        "filename": "A.web.12AM1AM.PicA.DLB",
+        "time": 12.55,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Daniel Leibowitz/Daily Bruin staff"
+    },
+    {
+        "filename": "B.web.12AM1AM.PicB.DLB",
+        "time": 1.01,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Daniel Leibowitz/Daily Bruin staff"
+    },
+    {
+        "filename": "D.web.1AM2AM.PicA.DLB",
+        "time": 1.07,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Daniel Leibowitz/Daily Bruin staff"
+    },
+    {
+        "filename": "C.web.1AM2AM.PicB.DLB",
+        "time": 1.22,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Daniel Leibowitz/Daily Bruin staff"
+    },
+    {
+        "filename": "E.web.2AM3AM.PicA.AL",
+        "time": 2.1,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Axel Lopez/Daily Bruin"
+    },
+    {
+        "filename": "F.web.2AM.3AM.PicB.AL",
+        "time": 2.38,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Axel Lopez/Daily Bruin"
+    },
+    {
+        "filename": "H.web.3AM4AM.PicB.AL",
+        "time": 3.01,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Axel Lopez/Daily Bruin"
+    },
+    {
+        "filename": "I.web.4AM5AM.PicA.AL",
+        "time": 4.4,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Axel Lopez/Daily Bruin"
+    },
+    {
+        "filename": "J.web.5AM6AM.PicA.AL",
+        "time": 5.09,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Axel Lopez/Daily Bruin"
+    },
+    {
+        "filename": "L.web.6AM7AM.PicA.MK",
+        "time": 6.2,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Mia Kayser/Daily Bruin"
+    },
+    {
+        "filename": "K.web.6AM7AM.PicB.MK",
+        "time": 6.25,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Mia Kayser/Daily Bruin"
+    },
+    {
+        "filename": "L.web.7AM8AM.PicA.MK",
+        "time": 7.25,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Mia Kayser/Daily Bruin"
+    },
+    {
+        "filename": "M.web.8AM9AM.PicA.MK",
+        "time": 8.1,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Mia Kayser/Daily Bruin"
+    },
+    {
+        "filename": "O.web.8AM9AM.PicB.MK",
+        "time": 8.25,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Mia Kayser/Daily Bruin"
+    },
+    {
+        "filename": "P.web.9AM10AM.PicA.MK",
+        "time": 9.2,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Mia Kayser/Daily Bruin"
+    },
+    {
+        "filename": "Q.web.9AM10AM.PicB.MK",
+        "time": 9.3,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Mia Kayser/Daily Bruin"
+    },
+    {
+        "filename": "R.web.10AM11AM.PicA.LU",
+        "time": 10.04,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Laura Uzes/Daily Bruin"
+    },
+    {
+        "filename": "S.web.10AM11AM.PicB.LU",
+        "time": 10.17,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Laura Uzes/Daily Bruin"
+    },
+    {
+        "filename": "T.web.11AM12PM.PicA.LU",
+        "time": 11.3,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Laura Uzes/Daily Bruin"
+    },
+    {
+        "filename": "U.web.11AM12PM.PicB.LU",
+        "time": 11.44,
+        "indicator": "AM",
+        "caption": "test caption(replace me)",
+        "credits": "Laura Uzes/Daily Bruin"
+    },
+    {
+        "filename": "V.web.12PM1PM.PicA.LK",
+        "time": 12.05,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Liz Ketcham/Daily Bruin"
+    },
+    {
+        "filename": "W.web.12PM1PM.PicB.LK",
+        "time": 12.42,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Liz Ketcham/Daily Bruin"
+    },
+    {
+        "filename": "web.1PM2PM.PicA.HM",
+        "time": 1.15,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Habeba Mostafa/Daily Bruin"
+    },
+    {
+        "filename": "web.1PM2PM.PicA.LK ",
+        "time": 1.19,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Liz Ketcham/Daily Bruin"
+    },
+    {
+        "filename": "web.1PM2PM.PicB.HM",
+        "time": 1.45,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Habeba Mostafa/Daily Bruin"
+    },
+    {
+        "filename": "web.2PM3PM.PIcA.EPi",
+        "time": 2.14,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Eljona Pinon/Daily Bruin"
+    },
+    {
+        "filename": "web.1PM2PM.PicC.HM",
+        "time": 2.2,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Habeba Mostafa/Daily Bruin"
+    },
+    {
+        "filename": "web.3PM4PM.PicA.CZ",
+        "time": 3.24,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Chelsea Zhang/Daily Bruin"
+    },
+    {
+        "filename": "web.3PM4PM.PicA.AYeo",
+        "time": 3.53,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Aubrey Yeo/Daily Bruin senior staff"
+    },
+    {
+        "filename": "web.4PM5PM.PicA.JS",
+        "time": 4.21,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Jenna Smith/Daily Bruin"
+    },
+    {
+        "filename": "web.5PM6PM.PicA.AYeo",
+        "time": 5.17,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Aubrey Yeo/Daily Bruin senior staff"
+    },
+    {
+        "filename": "web.5PM6PM.PicB.AYeo",
+        "time": 5.32,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Aubrey Yeo/Daily Bruin senior staff"
+    },
+    {
+        "filename": "web.5PM6PM.PicC.AYeo",
+        "time": 5.42,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Aubrey Yeo/Daily Bruin senior staff"
+    },
+    {
+        "filename": "web.6PM7PM.PicA.ES",
+        "time": 6.05,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Emma Skinner/Daily Bruin"
+    },
+    {
+        "filename": "web.6PM7PM.PicB.FSa",
+        "time": 6.21,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Farida Saleh/Daily Bruin"
+    },
+    {
+        "filename": "web.6PM7PM.PicA.FSa",
+        "time": 6.37,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Farida Saleh/Daily Bruin"
+    },
+    {
+        "filename": "web.7PM8PM.PicA.Fsa",
+        "time": 7.36,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Farida Saleh/Daily Bruin"
+    },
+    {
+        "filename": "web.7PM8PM.PicC.Fsa",
+        "time": 7.54,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Farida Saleh/Daily Bruin"
+    },
+    {
+        "filename": "web.9PM10PM.PicA.EF",
+        "time": 9.36,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Edward Figueroa/Ddaily Bruin"
+    },
+    {
+        "filename": "web.10PM11PM.PicA.MC",
+        "time": 10.27,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Mackenzie Coffman/Daily Bruin"
+    },
+    {
+        "filename": "web.10PM11PM.PicA.GZ",
+        "time": 10.39,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Grace Zhu/Daily Bruin"
+    },
+    {
+        "filename": "web.11PM12AM.PicA.MC",
+        "time": 11.35,
+        "indicator": "PM",
+        "caption": "test caption(replace me)",
+        "credits": "Mackenzie Coffman/Daily Bruin"
+    }
+]
