@@ -15,21 +15,21 @@
   </div>
   <div id="fullpage">
     {% for photo in data %}
-    <div class="photo-container" id="{{ photo.id + 'id'}}" data-anchor="{{ photo.id }}" data-time="{{ photo.time }}" data-indicator="{{ photo.indicator }}" data-caption="{{ photo.caption }}">
+    <div class="photo-container" id="{{ photo.id + 'id'}}" data-anchor="{{ photo.id }}" data-time="{{ photo.time }}" data-indicator="{{ photo.indicator }}" data-caption="{{ photo.caption }}"  data-credit="{{photo.credits}}">
       <div class="photo">
         <img src="{{ 'img/' + photo.filename + '.jpg' }}">
       </div>
     </div>
     {% endfor %}
   </div>
-  <div class="sidebar">
+  <div id="sidebar">
     <div class="title-container">
-      24 Hours at UCLA
     </div>
-    <ul id="sidebar-links">
-      {% for photo in data %}
-        <li data-menuanchor="{{photo.id}}"><a href="#{{photo.id}}">{{photo.time}}</a></li>
-      {% endfor %}
-    </ul>
+    <div class="icons">
+      <a href="#1"><img src="img/favorites.svg"></a><span><a href="#1">LATE NIGHT</a></span>
+      <a href="#11"><img src="img/sunrise.svg"></a><span><a href="#11">MORNING</a></span>
+      <a href="#21"><img src="img/sun.svg"></a><span><a href="#21">AFTERNOON</a></span>
+      <a href="#32"><img src="img/night.svg"></a><span><a href="#32">NIGHT</a></span>
+    </div>
   </div>
 {% endblock %}

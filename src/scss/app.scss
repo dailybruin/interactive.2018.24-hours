@@ -1,7 +1,7 @@
 .photo-container {
     height: 100vh !important;
-    width: calc(100vw - 100px);
-    margin-left: 100px;
+    width: calc(100vw - 65px);
+    margin-left: 65px;
     background-color: white;
 }
 
@@ -13,6 +13,20 @@
     opacity: 0;
     transition-delay: 0.3s;
     transition: opacity 0.3s ease;
+}
+
+.icons img {
+    width: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass Mono', sans-serif;
 }
 
 #shadow-overlay {
@@ -27,15 +41,25 @@
     z-index: -1;
 }
 
-.sidebar {
-    width: 100px;
+.icons a {
+    color: black;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:65px;
     position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
-    background-color: orange;
+    background-color: white;
     transition: width 0.3s ease;
     z-index: 5;
+    -webkit-box-shadow: 2px 0px 11px 3px rgba(0,0,0,0.12);
+    -moz-box-shadow: 2px 0px 11px 3px rgba(0,0,0,0.12);
+    box-shadow: 2px 0px 11px 3px rgba(0,0,0,0.12);
 }
 
 .photo {
@@ -53,8 +77,8 @@ img {
     max-width: 100%;
 }
 
-.sidebar:hover {
-    width: 325px;
+#sidebar:hover {
+    width: 150px;
 
     .title-container {
         opacity: 1;
@@ -65,14 +89,21 @@ img {
         opacity: 0.65 !important;
         z-index: 3 !important;
     }
+}
 
+#sidebar:hover span {
+    display: block;
+}
+
+.icons span{
+    display: none;
 }
 
 #time-caption-wrapper {
    position: absolute;
    z-index:4;
    top: 50%;
-   left: calc(100px + 10%);
+   left: calc(65px + 10%);
 }
 
 #caption {
@@ -110,7 +141,7 @@ img {
 #caption-read-more {
     cursor: pointer;
     line-height: 1;
-    color: lightgray;
+    color: white;
     transition: color 0.3s ease;
     transition: height color 0.3s ease;
     font-family: 'Karla', sans-serif;
@@ -120,5 +151,16 @@ img {
 
 #caption-read-more:hover {
     cursor: pointer;
-    color: white;
+    color: gold;
+}
+
+
+@media only screen and (max-width : 768px) {
+    #time {
+        font-size: 1.5rem;
+    }
+    #time-caption-wrapper {
+        top: 85%;
+        right: 50%;
+    }
 }

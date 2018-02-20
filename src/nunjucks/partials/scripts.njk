@@ -17,6 +17,8 @@
     let indicator = document.getElementById('indicator');
     let time = document.getElementById('time');
     let captionReadMore = document.getElementById('caption-read-more');
+    let captionWrapper = document.getElementById('time-caption-wrapper');
+    let oldTopWrapper = captionWrapper.style.getPropertyValue('top');
     //FOR COUNTUPJS
     var options = {
       useEasing: true, 
@@ -36,12 +38,14 @@
     captionReadMore.addEventListener('click', readMore);
     // hide caption
     overlay.addEventListener('click', readLess);
+    time.addEventListener('click', readMore);
     function readMore() {
        overlay.style.opacity = 0.65;
        overlay.style.zIndex = 3;
        caption.style.opacity = 1;
        captionReadMore.style.height = 0;
        captionReadMore.style.opacity = 0;
+       captionWrapper.style.top = '50%';
     }
 
     function readLess() {
@@ -50,6 +54,7 @@
         caption.style.opacity = 0;
         captionReadMore.style.height = '1rem';
         captionReadMore.style.opacity = 1;
+        captionWrapper.style.top = oldTopWrapper;
     }
 
     //FOR FULLPAGE.JS
@@ -68,7 +73,7 @@
                 demo.update(newTime);
                 //update caption
                 let newCaption = updateSlide.getAttribute('data-caption');
-                caption.innerHTML = newCaption;
+                caption.innerHTML = newCaption + '<br>' + updateSlide.getAttribute('data-credit');;
                 //indicator.innerHTML = updateSlide.getAttribute('data-indicator');
                 demo.options.suffix = updateSlide.getAttribute('data-indicator');
             }

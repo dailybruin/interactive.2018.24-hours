@@ -185,7 +185,7 @@
     },
     {
         "id": 24,
-        "filename": "web.1PM2PM.PicA.LK ",
+        "filename": "web.1PM2PM.PicA.LK",
         "time": 1.19,
         "indicator": "PM",
         "caption": "test caption(replace me)",
@@ -273,7 +273,7 @@
     },
     {
         "id": 35,
-        "filename": "web.6PM7PM.PicB.FSa",
+        "filename": "web.6PM.7PM.PicA.FSa",
         "time": 6.21,
         "indicator": "PM",
         "caption": "test caption(replace me)",
@@ -313,7 +313,7 @@
     },
     {
         "id": 40,
-        "filename": "web.10PM11PM.PicA.MC",
+        "filename": "web.10PM11PM.PICA.MC",
         "time": 10.27,
         "indicator": "PM",
         "caption": "test caption(replace me)",
@@ -321,7 +321,7 @@
     },
     {
         "id": 41,
-        "filename": "web.10PM11PM.PicA.GZ",
+        "filename": "web.10PM11PM.PICA.GZ",
         "time": 10.39,
         "indicator": "PM",
         "caption": "test caption(replace me)",
@@ -329,7 +329,7 @@
     },
     {
         "id": 42,
-        "filename": "web.11PM12AM.PicA.MC",
+        "filename": "web.11PM12AM.PICA.MC",
         "time": 11.35,
         "indicator": "PM",
         "caption": "test caption(replace me)",
