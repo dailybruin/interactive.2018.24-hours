@@ -28,7 +28,10 @@ const browserSync = bs.create();
 gulp.task('images:dev', () => gulp.src('src/img/*').pipe(gulp.dest('dev/img')));
 
 gulp.task('images:prod', () =>
-  gulp.src('src/img/*').pipe(imagemin()).pipe(gulp.dest('prod/img'))
+  gulp
+    .src('src/img/*')
+    .pipe(imagemin())
+    .pipe(gulp.dest('prod/img'))
 );
 
 gulp.task('styles:dev', () =>
@@ -99,6 +102,10 @@ gulp.task('scripts:prod', () =>
     .pipe(gulp.dest('prod/js'))
 );
 
+gulp.task('vendors:dev', () =>
+  gulp.src('src/vendor/**').pipe(gulp.dest('dev/vendor'))
+);
+
 gulp.task('html:dev', () =>
   gulp
     .src('src/*.{njk,html}')
@@ -129,7 +136,7 @@ gulp.task('html:prod', () =>
 
 gulp.task(
   'development',
-  ['html:dev', 'styles:dev', 'scripts:dev', 'images:dev'],
+  ['html:dev', 'styles:dev', 'scripts:dev', 'images:dev', 'vendors:dev'],
   () => {
     browserSync.init({
       server: {
@@ -143,6 +150,7 @@ gulp.task(
     gulp.watch('./src/img/**/*', ['images:dev']);
     gulp.watch('./src/scss/**/*.scss', ['styles:dev']);
     gulp.watch('./src/js/**/*.js', ['scripts:dev']);
+    gulp.watch('./src/vendor*/*', ['vendors:dev']);
     gulp
       .watch('src/**/*.{njk,html}', ['html:dev'])
       .on('change', browserSync.reload);
