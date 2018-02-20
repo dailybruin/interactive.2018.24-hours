@@ -14,8 +14,14 @@
     </div>
   </div>
   <div id="fullpage">
+    <div class="photo-container title-page" id="1id" data-anchor="1" data-time="12" data-indicator="Hours" data-caption="landing"  data-credit="landing">
+      <h1>24 Hours</h1>
+      <p>Armed with camera bodies and zoom lenses, photographers at the Daily Bruin bring stories to life each day, humanizing Oscar-nominated songwriters and larger-than-life athletes. On January 18, 2018, 15 photographers set out to demonstrate the idiosyncrasies of life throughout 24 hours at UCLA.</p>
+      <p>Photos taken by: Daniel Leibowitz, Axel Lopez, Mia Kayser, Laura Uzes, Liz Ketcham, Habeba Mostafa, Eljona Pinon, Chelsea Zhang, Aubrey Yeo, Jenna Smith, Emma Skinner, Farida Saleh, Edward Figureoa, Mackenzie Coffman, Grace Zhu</p>
+      <p>Page developed by: <a href="http://github.com/zeehang">Michael Zhang</a></p>
+    </div>
     {% for photo in data %}
-    <div class="photo-container" id="{{ photo.id + 'id'}}" data-anchor="{{ photo.id }}" data-time="{{ photo.time }}" data-indicator="{{ photo.indicator }}" data-caption="{{ photo.caption }}"  data-credit="{{photo.credits}}">
+    <div class="photo-container" id="{{ (photo.id + 1) + 'id'}}" data-anchor="{{ (photo.id+1) }}" data-time="{{ photo.time }}" data-indicator="{{ photo.indicator }}" data-caption="{{ photo.caption }}"  data-credit="{{photo.credits}}">
       <div class="photo">
         <img src="{{ 'img/' + photo.filename + '.jpg' }}">
       </div>
@@ -26,10 +32,10 @@
     <div class="title-container">
     </div>
     <div class="icons">
-      <a href="#1"><img src="img/favorites.svg"></a><span><a href="#1">LATE NIGHT</a></span>
-      <a href="#11"><img src="img/sunrise.svg"></a><span><a href="#11">MORNING</a></span>
-      <a href="#21"><img src="img/sun.svg"></a><span><a href="#21">AFTERNOON</a></span>
-      <a href="#32"><img src="img/night.svg"></a><span><a href="#32">NIGHT</a></span>
+      <a href="#2"><img src="img/favorites.svg"></a><span><a href="#1">LATE NIGHT</a></span>
+      <a href="#12"><img src="img/sunrise.svg"></a><span><a href="#11">MORNING</a></span>
+      <a href="#22"><img src="img/sun.svg"></a><span><a href="#21">AFTERNOON</a></span>
+      <a href="#33"><img src="img/night.svg"></a><span><a href="#32">NIGHT</a></span>
     </div>
   </div>
 {% endblock %}

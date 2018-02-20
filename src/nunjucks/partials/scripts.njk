@@ -66,6 +66,11 @@
             autoScrolling: true,
             // callback function that updates the clock and caption
             afterLoad: function(anchorLink, index) {
+                if(index == 1) {
+                    captionWrapper.style.display = 'none';
+                } else {
+                    captionWrapper.style.display = 'block';
+                }
                 // update clock
                 let updateSlide = document.getElementById(index + 'id');
                 console.log(updateSlide);
