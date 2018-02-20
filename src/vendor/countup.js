@@ -80,6 +80,10 @@ var CountUp = function(target, startVal, endVal, decimals, duration, options) {
     var x, x1, x2, rgx;
     x = nStr.split('.');
     x1 = x[0];
+    x[1] = x[1] % 59;
+    if (x[1] < 10) {
+      x[1] = '0' + x[1];
+    }
     x2 = x.length > 1 ? self.options.decimal + x[1] : '';
     rgx = /(\d+)(\d{3})/;
     if (self.options.useGrouping) {

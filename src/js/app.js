@@ -59,13 +59,15 @@ $('#fullpage').fullpage({
     }
     // update clock
     let updateSlide = document.getElementById(index + 'id');
-    console.log(updateSlide);
     let newTime = updateSlide.getAttribute('data-time');
     demo.update(newTime);
     //update caption
     let newCaption = updateSlide.getAttribute('data-caption');
     caption.innerHTML =
-      newCaption + '<br>' + updateSlide.getAttribute('data-credit');
+      newCaption +
+      '<br>' +
+      'Photo by ' +
+      updateSlide.getAttribute('data-credit');
     //indicator.innerHTML = updateSlide.getAttribute('data-indicator');
     demo.options.suffix = updateSlide.getAttribute('data-indicator');
   },

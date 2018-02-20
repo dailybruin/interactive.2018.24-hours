@@ -4,7 +4,7 @@
         "filename": "A.web.12AM1AM.PicA.DLB",
         "time": 12.55,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "A couple makes their way down a quiet Gayley Avenue, away from Westwood’s bustling nightlife. ",
         "credits": "Daniel Leibowitz/Daily Bruin staff"
     },
     {
@@ -12,7 +12,7 @@
         "filename": "B.web.12AM1AM.PicB.DLB",
         "time": 1.01,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "The typically busy underpass is barren, aside from a student making his way through the night.",
         "credits": "Daniel Leibowitz/Daily Bruin staff"
     },
     {
@@ -20,7 +20,7 @@
         "filename": "D.web.1AM2AM.PicA.DLB",
         "time": 1.07,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Custodial workers scrub the UCLA Athletics Hall of Fame in the middle of the night.",
         "credits": "Daniel Leibowitz/Daily Bruin staff"
     },
     {
@@ -28,7 +28,7 @@
         "filename": "C.web.1AM2AM.PicB.DLB",
         "time": 1.22,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Trash litters the benches along Bruin Walk.",
         "credits": "Daniel Leibowitz/Daily Bruin staff"
     },
     {
@@ -36,7 +36,7 @@
         "filename": "E.web.2AM3AM.PicA.AL",
         "time": 2.1,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Sandwiches accompany a late-night cram session in The Study at Hedrick.\r\n",
         "credits": "Axel Lopez/Daily Bruin"
     },
     {
@@ -44,7 +44,7 @@
         "filename": "F.web.2AM3AM.PicB.AL",
         "time": 2.38,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Students staff the John Wooden Center from night until morning. The gym extended its opening hours beginning winter 2017. \r\n",
         "credits": "Axel Lopez/Daily Bruin"
     },
     {
@@ -52,7 +52,7 @@
         "filename": "H.web.3AM4AM.PicB.AL",
         "time": 3.01,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "\"All my classes are heavy on reading (this quarter), so I have to sacrifice sleep sometimes,” said Arman Antonyan, a first-year political science student. “Despite being a night person, I always end up regretting not sleeping enough.”",
         "credits": "Axel Lopez/Daily Bruin"
     },
     {
@@ -60,7 +60,7 @@
         "filename": "I.web.4AM5AM.PicA.AL",
         "time": 4.4,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "\"I've been here (at Powell) all night doing work for my off-campus job,” said Alexandra Polovneff, a fourth-year psychobiology student. “I conduct social psychology research for an investment firm, and I have a deadline to meet.” ",
         "credits": "Axel Lopez/Daily Bruin"
     },
     {
@@ -68,7 +68,7 @@
         "filename": "J.web.5AM6AM.PicA.AL",
         "time": 5.09,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Early morning gym sessions are a routine for fourth-year sociology student Angel Cantellano. “[I] come here Tuesdays through Thursdays. I prefer to come early when there’s less people.”",
         "credits": "Axel Lopez/Daily Bruin"
     },
     {
@@ -76,7 +76,7 @@
         "filename": "L.web.6AM7AM.PicA.MK",
         "time": 6.2,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "The Hilgard apartments, normally alive with construction workers remodeling the building, are quiet this morning.",
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
@@ -84,7 +84,7 @@
         "filename": "K.web.6AM7AM.PicB.MK",
         "time": 6.25,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Morning commuters await their bus rides in Westwood. ",
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
@@ -92,7 +92,7 @@
         "filename": "L.web.7AM8AM.PicA.MK",
         "time": 7.25,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Reserve Officers’ Training Corps students start off their day with an intense morning.\n",
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
@@ -100,7 +100,7 @@
         "filename": "M.web.8AM9AM.PicA.MK",
         "time": 8.1,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Students trek to their early morning classes. ",
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
@@ -108,7 +108,7 @@
         "filename": "O.web.8AM9AM.PicB.MK",
         "time": 8.25,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "While the hills by Janss Steps are normally dotted with students relaxing or enjoying the view, this morning they are comparatively empty. A groundskeeper takes advantage of the quiet morning to mow the sprawling lawn. \n",
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
@@ -116,7 +116,7 @@
         "filename": "P.web.9AM10AM.PicA.MK",
         "time": 9.2,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Students squeeze in some last-minute questions following a lecture in the Math Sciences building. ",
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
@@ -124,7 +124,7 @@
         "filename": "Q.web.9AM10AM.PicB.MK",
         "time": 9.3,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Baristas at Evelyn & Mo Ostin Music Cafe in Schoenberg Music Building prepare a selection of coffees for the day. ",
         "credits": "Mia Kayser/Daily Bruin"
     },
     {
@@ -132,7 +132,7 @@
         "filename": "R.web.10AM11AM.PicA.LU",
         "time": 10.04,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Siem Ingelse, a graduate exchange student from Amsterdam studying screenwriting, and his friend, David van Boven enjoy some sun by the Los Angeles Tennis Center. ",
         "credits": "Laura Uzes/Daily Bruin"
     },
     {
@@ -140,7 +140,7 @@
         "filename": "S.web.10AM11AM.PicB.LU",
         "time": 10.17,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Second-year biology student Alex Phu facilitates a Southeast Asian Campus Learning Education and Retention peer-counseling session with third-year chemical engineering student Fatin Bakri. ",
         "credits": "Laura Uzes/Daily Bruin"
     },
     {
@@ -148,7 +148,7 @@
         "filename": "T.web.11AM12PM.PicA.LU",
         "time": 11.3,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "A groundskeeper trims bushes outside Haines Hall.",
         "credits": "Laura Uzes/Daily Bruin"
     },
     {
@@ -156,7 +156,7 @@
         "filename": "U.web.11AM12PM.PicB.LU",
         "time": 11.44,
         "indicator": "AM",
-        "caption": "test caption(replace me)",
+        "caption": "Third-year linguistics and computer science student Thomas Palmer strums a dulcimer, a fretted string instrument considered to be the ancestor of the piano, by the Sunken Gardens.\n",
         "credits": "Laura Uzes/Daily Bruin"
     },
     {
@@ -164,7 +164,7 @@
         "filename": "V.web.12PM1PM.PicA.LK",
         "time": 12.05,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Students lounge in between class outside Broad Art Center.",
         "credits": "Liz Ketcham/Daily Bruin"
     },
     {
@@ -172,7 +172,7 @@
         "filename": "W.web.12PM1PM.PicB.LK",
         "time": 12.42,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Though John Wooden Center is open for 24 hours, many prefer to hit the gym for a midday sweat session.",
         "credits": "Liz Ketcham/Daily Bruin"
     },
     {
@@ -180,7 +180,7 @@
         "filename": "web.1PM2PM.PicA.HM",
         "time": 1.15,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Pediatric AIDS Coalition members recruit prospective dancers for the annual Dance Marathon.\n",
         "credits": "Habeba Mostafa/Daily Bruin"
     },
     {
@@ -188,7 +188,7 @@
         "filename": "web.1PM2PM.PicA.LK",
         "time": 1.19,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Hammer Museum crewmembers Paris Patt (left) and Elizabeth Patt (right) perform routine maintenance on statues in the Murphy Sculpture Garden.",
         "credits": "Liz Ketcham/Daily Bruin"
     },
     {
@@ -196,15 +196,15 @@
         "filename": "web.1PM2PM.PicB.HM",
         "time": 1.45,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Some students scramble to class, while others pass out flyers for their clubs. Others stop by to check out the numerous organizations holding fundraisers.",
         "credits": "Habeba Mostafa/Daily Bruin"
     },
     {
         "id": 26,
-        "filename": "web.2PM3PM.PIcA.EPi",
+        "filename": "web.2PM3PM.PicA.EPi",
         "time": 2.14,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Third-year gender studies student Natalie Ebrahams reviews her notes in Royce Hall’s iconic arches as she awaits her next class.",
         "credits": "Eljona Pinon/Daily Bruin"
     },
     {
@@ -212,7 +212,7 @@
         "filename": "web.1PM2PM.PicC.HM",
         "time": 2.2,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Students bask in the California winter sun on the rolling hills by Janss Steps.\n",
         "credits": "Habeba Mostafa/Daily Bruin"
     },
     {
@@ -220,7 +220,7 @@
         "filename": "web.3PM4PM.PicA.CZ",
         "time": 3.24,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Second-year Arabic and French languages and cultures student Bilqis Kulungu (left) and second-year physiological science student Asha Isse (right) sign petitions against University of California tuition hikes.",
         "credits": "Chelsea Zhang/Daily Bruin"
     },
     {
@@ -228,7 +228,7 @@
         "filename": "web.3PM4PM.PicA.AYeo",
         "time": 3.53,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Lucy, a goldendoodle, comes for a walk with her owner on UCLA’s campus almost every day.",
         "credits": "Aubrey Yeo/Daily Bruin senior staff"
     },
     {
@@ -236,7 +236,7 @@
         "filename": "web.4PM5PM.PicA.JS",
         "time": 4.21,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "A campus tour concludes with a Q&A session with fourth-year business economics student Andi Wong in front of Wooden.",
         "credits": "Jenna Smith/Daily Bruin"
     },
     {
@@ -244,7 +244,7 @@
         "filename": "web.5PM6PM.PicA.AYeo",
         "time": 5.17,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Event staffer Maurice Moore finishes his dinner outside Pauley Pavilion before a UCLA men's volleyball game against Penn State.",
         "credits": "Aubrey Yeo/Daily Bruin senior staff"
     },
     {
@@ -252,7 +252,7 @@
         "filename": "web.5PM6PM.PicB.AYeo",
         "time": 5.32,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "A student snaps a photo of the sunset while atop Janss Steps. ",
         "credits": "Aubrey Yeo/Daily Bruin senior staff"
     },
     {
@@ -260,7 +260,7 @@
         "filename": "web.5PM6PM.PicC.AYeo",
         "time": 5.42,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Kerckhoff Hall, home of many UCLA student organizations, illuminates Bruin Walk at night. \n",
         "credits": "Aubrey Yeo/Daily Bruin senior staff"
     },
     {
@@ -268,7 +268,7 @@
         "filename": "web.6PM7PM.PicA.ES",
         "time": 6.05,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "The UCLA Anderson School of Management hosts its third annual Consumer Electronics Show event, which focuses on artificial intelligence, digital reality and biometrics. \n",
         "credits": "Emma Skinner/Daily Bruin"
     },
     {
@@ -276,7 +276,7 @@
         "filename": "web.6PM.7PM.PicA.FSa",
         "time": 6.21,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "AMP'D Entertainment employees pack up the equipment at Anderson after CES. ",
         "credits": "Farida Saleh/Daily Bruin"
     },
     {
@@ -284,23 +284,23 @@
         "filename": "web.6PM7PM.PicA.FSa",
         "time": 6.37,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": " UCLA design media arts alumnus Alec Maassen admires the artwork from the annual design | media arts undergraduate exhibition. This year, artists explored interpretations of the prefix ‘dis.’ from Jan. 18 to Feb. 2.",
         "credits": "Farida Saleh/Daily Bruin"
     },
     {
         "id": 37,
-        "filename": "web.7PM8PM.PicA.Fsa",
+        "filename": "web.7PM8PM.PicA.FSa",
         "time": 7.36,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "The fraternity houses are quiet on a Thursday night following the temporary ban on alcohol in fraternity house parties, which was implemented Jan. 18.",
         "credits": "Farida Saleh/Daily Bruin"
     },
     {
         "id": 38,
-        "filename": "web.7PM8PM.PicC.Fsa",
+        "filename": "web.7PM8PM.PicC.FSa",
         "time": 7.54,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Students await the Campus Events Commission’s screening of “Loving Vincent” at Ackerman Grand Ballroom. ",
         "credits": "Farida Saleh/Daily Bruin"
     },
     {
@@ -308,7 +308,7 @@
         "filename": "web.9PM10PM.PicA.EF",
         "time": 9.36,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Third-year astrophysics student Matt Jacobs (left), along with his team, won their intramural soccer match 9-0.",
         "credits": "Edward Figueroa/Ddaily Bruin"
     },
     {
@@ -316,7 +316,7 @@
         "filename": "web.10PM11PM.PICA.MC",
         "time": 10.27,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Bruin Bhangra, consisting of 25 students passionate about Punjabi culture and dance, practices throughout the year. The club hosts an annual dance competition for other collegiate Bhangra teams each spring.",
         "credits": "MacKenzie Coffman/Daily Bruin"
     },
     {
@@ -324,7 +324,7 @@
         "filename": "web.10PM11PM.PICA.GZ",
         "time": 10.39,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "The club tennis team occupies most of the Los Angeles Tennis Center at night to practice. ",
         "credits": "Grace Zhu/Daily Bruin"
     },
     {
@@ -332,7 +332,7 @@
         "filename": "web.11PM12AM.PICA.MC",
         "time": 11.35,
         "indicator": "PM",
-        "caption": "test caption(replace me)",
+        "caption": "Fourth-year biology student Stephanie Hernandez, along with other members NSU Modern, run through another portion of their latest dance routine. ",
         "credits": "MacKenzie Coffman/Daily Bruin"
     }
 ]

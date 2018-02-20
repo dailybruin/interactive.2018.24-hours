@@ -143,6 +143,7 @@ img {
    width: auto;
    max-width: 600px;
    transition: top 0.3s ease;
+   display: none;
 }
 
 #caption {
@@ -200,5 +201,9 @@ img {
     #time-caption-wrapper {
         top: 85%;
         right: 50%;
+        min-width: 250px;
+    }
+    h1 {
+        font-size: 2rem;
     }
 }
