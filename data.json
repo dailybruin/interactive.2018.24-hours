@@ -317,7 +317,7 @@
         "time": 10.27,
         "indicator": "PM",
         "caption": "test caption(replace me)",
-        "credits": "Mackenzie Coffman/Daily Bruin"
+        "credits": "MacKenzie Coffman/Daily Bruin"
     },
     {
         "id": 41,
@@ -333,6 +333,6 @@
         "time": 11.35,
         "indicator": "PM",
         "caption": "test caption(replace me)",
-        "credits": "Mackenzie Coffman/Daily Bruin"
+        "credits": "MacKenzie Coffman/Daily Bruin"
     }
 ]
