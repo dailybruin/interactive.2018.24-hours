@@ -5,6 +5,7 @@ h1 {
 
 .title-page {
     padding: 40px;
+    height: auto !important;
 }
 
 .title-page a {
@@ -128,7 +129,7 @@ img {
    z-index:4;
    top: 50%;
    left: calc(65px + 10%);
-   width: 80%;
+   width: auto;
    max-width: 600px;
    transition: top 0.3s ease;
 }

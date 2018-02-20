@@ -47,7 +47,8 @@ function readLess() {
 $('#fullpage').fullpage({
   sectionSelector: '.photo-container',
   menu: '#sidebar-links',
-  lazyload: true,
+  lazyLoading: true,
+  scrollOverflow: true,
   autoScrolling: true,
   // callback function that updates the clock and caption
   afterLoad: function(anchorLink, index) {
